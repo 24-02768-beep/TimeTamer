@@ -1,0 +1,14 @@
+// Abstract method
+public abstract String perform(Player player, Random rng);
+
+// Method overriding
+@Override
+public String perform(Player player, Random rng) {
+    player.updateStats(-20, -5, 15);
+    return "You studied.";
+}
+
+
+// Runtime polymorphism
+Activity activity = activities[choice - 1];
+activity.perform(player, rng);

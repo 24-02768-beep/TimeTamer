@@ -1,0 +1,12 @@
+// Parent class
+abstract class Character {
+    private String name;
+    private int age;
+}
+
+// Child class
+class Player extends Character {
+    private int energy;
+    private int motivation;
+    private int performance;
+}

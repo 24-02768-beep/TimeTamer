@@ -1,0 +1,24 @@
+// Encapsulated fields
+private String name;
+private int age;
+private int energy;
+private int motivation;
+private int performance;
+private int day;
+
+// Getter
+public int getEnergy() {
+    return energy;
+}
+
+// Setter with validation
+public void setAge(int age) {
+    this.age = Math.max(0, age);
+}
+
+// Controlled update method
+public void updateStats(int energyChange, int motivationChange, int performanceChange) {
+    this.energy = Math.max(0, Math.min(100, this.energy + energyChange));
+    this.motivation = Math.max(0, Math.min(100, this.motivation + motivationChange));
+    this.performance = Math.max(0, this.performance + performanceChange);
+}
