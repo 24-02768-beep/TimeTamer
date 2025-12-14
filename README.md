@@ -1,12 +1,10 @@
 # TimeTamer
 
-TimeTamer
-
 
 Description / Overview
 TimeTamer is a Java console-based simulation game that allows players to navigate daily routines by making choices that affect their energy, motivation, and performance. Players decide how to spend their day studying, socializing, exercising, or resting—and each choice impacts their progress and life balance. The program promotes reflection on real-world time management, discipline, productivity, and self-care, combining engaging gameplay with meaningful life lessons.
 
-OOP Concepts Applied
+#OOP Concepts Applied
 
  Encapsulation
    - The Player and Character classes encapsulate attributes such as energy, motivation, and performance.
@@ -28,7 +26,7 @@ Exception Handling
    - Custom exception InvalidChoiceException manages invalid menu inputs, promoting robust and user-friendly interaction.
 
 Program Structure
-      Main Classes
+#Main Classes
 Character (Abstract Class)
 Defines common attributes such as name and age for all characters.
 Player (Subclass of Character)
@@ -56,7 +54,7 @@ Activity (abstract)
    ├── RestActivity
    └── ExerciseActivity
 
-How to Run the Program
+#How to Run the Program
 
 1. Requirements
 Java Development Kit (JDK) 11 or higher
@@ -98,7 +96,7 @@ You studied. -20 Energy, +17 Performance.
 
 Author and Acknowledgement
 
-Authors:
+#Authors:
 
 Name: Carpio, Ayella Nicole A. 
 Course / Program: BS Information Technology
